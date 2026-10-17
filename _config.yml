@@ -23,7 +23,7 @@ repository               : "Sumit7689/Sumit7689.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : ""
+  avatar           :
   name             : "Sumit Parashar"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. researcher in Mathematics"
