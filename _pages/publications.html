@@ -5,32 +5,25 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>My publications and preprints are also listed on <a href="https://scholar.google.com/citations?user=Vvr9sRsAAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://arxiv.org/search/math?query=Parashar%2C+S&amp;searchtype=author">arXiv</a>.</p>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<ul class="publication-list">
+  <li style="margin-bottom: 1.6em;">
+    <strong>Hardy-Littlewood maximal, generalized Bessel-Riesz and generalized fractional integral operators in generalized Morrey and BMO<sub>ϕ</sub> spaces associated with Dunkl operator on the real line</strong><br>
+    <strong>Authors:</strong> Sumit Parashar and Saswata Adhikari<br>
+    <strong>Journal Version:</strong> <em>Fractional Calculus and Applied Analysis</em>, <strong>29</strong>, 215–258 (2026). Published online: 24 November 2025.<br>
+    <strong>Links:</strong> <a href="https://doi.org/10.1007/s13540-025-00469-3">Journal article</a> · <a href="https://arxiv.org/abs/2502.14390">arXiv</a>
+  </li>
+  <li style="margin-bottom: 1.6em;">
+    <strong>Hausdorff operators and fractional Hausdorff operators in the Dunkl setting</strong><br>
+    <strong>Authors:</strong> Sumit Parashar and Saswata Adhikari<br>
+    <strong>Status:</strong> Preprint, arXiv:2606.16197 (2026).<br>
+    <strong>Link:</strong> <a href="https://arxiv.org/abs/2606.16197">arXiv</a>
+  </li>
+  <li style="margin-bottom: 1.6em;">
+    <strong>On the Boundedness of Generalized Fractional Integral Operators in Morrey Spaces and Campanato Spaces associated with the Dunkl Operator on the Real Line</strong><br>
+    <strong>Authors:</strong> Sumit Parashar and Saswata Adhikari<br>
+    <strong>Status:</strong> Preprint, arXiv:2504.17241 (2025).<br>
+    <strong>Link:</strong> <a href="https://arxiv.org/abs/2504.17241">arXiv</a>
+  </li>
+</ul>
