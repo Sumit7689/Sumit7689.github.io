@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. researcher in Mathematics at the Indian Institute of Technology Mandi, where I have been working under the supervision of **Dr. Saswata Adhikari** since **August 2022**.
+I am a Ph.D. researcher in Mathematics at the Indian Institute of Technology Mandi, where I work under the supervision of **Dr. Saswata Adhikari**.
 
 My research interests lie in harmonic analysis, Fourier analysis, and functional analysis. My research focuses on integral operators and function spaces associated with the Dunkl operator, including generalized Morrey, BMO, and Campanato spaces.
 
-I completed my M.Sc. at the University of Delhi in 2019 and my B.Sc. at the University of Rajasthan in 2017.
+I completed my M.Sc. at the University of Delhi and my B.Sc. at the University of Rajasthan.
 
 ## Research
 
